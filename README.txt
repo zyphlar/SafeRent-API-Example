@@ -1,9 +1,9 @@
 SafeRent API Example
 Written in PHP by Will Bradley (twitter.com/willbradley)
 
-This is a basic, sample implementation of the First Advantage SafeRent API (MITS) in PHP.
+This is a basic, sample implementation of the CoreLogic SafeRent API (MITS) in PHP.
 Contact your representative for documentation; I'm only sharing this since I wrote it and thought others might find it useful.
-I am not affiliated with First Advantage in any way.
+I am not affiliated with CoreLogic in any way.
 
 This code is released to the public domain.
 
