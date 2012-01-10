@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ApplicantScreening xmlns:MITS="http://my-company.com/namespace">
+  <Request xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <PropertyID>
+      <MITS:Identification Type="other">
+        <MITS:PrimaryID />
+        <MITS:MarketingName />
+      </MITS:Identification>
+    </PropertyID>
+    <RequestType>New</RequestType>
+    <Agencies />
+    <ReportOptions>
+      <ReportName>01</ReportName>
+    </ReportOptions>
+    <OriginatorID>YOUR_VENDORID</OriginatorID>
+    <UserAccount>YOUR_ACCOUNTID</UserAccount>
+    <UserName>YOUR_USERNAME</UserName>
+    <UserPassword>YOUR_PASSWORD</UserPassword>
+  </Request>
+  <LeaseTerms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <MonthlyRent>1200.0000</MonthlyRent>
+    <LeaseMonths>12</LeaseMonths>
+    <ApplicationDate>2009-03-20</ApplicationDate>
+    <NumberBedrooms>2</NumberBedrooms>
+    <SecurityDeposit>1000.0000</SecurityDeposit>
+  </LeaseTerms>
+  <Applicant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Other>
+      <CurrentRent>1000</CurrentRent>
+      <ConsentObtained>YES</ConsentObtained>
+    </Other>
+    <Income>
+      <EmploymentType>Current</EmploymentType>
+      <EmploymentGrossIncome>3</EmploymentGrossIncome>
+      <OtherIncomeAmount>0</OtherIncomeAmount>
+      <OtherIncomeType />
+      <OtherIncomePeriod />
+    </Income>
+    <AS_Information>
+      <ApplicantIdentifier />
+      <ApplicantType>Applicant</ApplicantType>
+        <GuarantorFor />
+        <Spouse />
+      <Birthdate>1960-06-06</Birthdate>
+      <SocSecNumber>888327205</SocSecNumber>
+      <DriversLicenseID>981234567</DriversLicenseID>
+      <DriversLicenseState>FL</DriversLicenseState>
+    </AS_Information>
+    <Customers>
+      <MITS:Customer Type="applicant">
+        <MITS:CustomerID>123*AB-540</MITS:CustomerID>
+        <MITS:Name>
+          <MITS:NamePrefix />
+          <MITS:FirstName>David</MITS:FirstName>
+          <MITS:MiddleName />
+          <MITS:LastName>Ascione</MITS:LastName>
+          <MITS:MaidenName />
+          <MITS:NameSuffix />
+        </MITS:Name>
+        <MITS:Address Type="current">
+          <MITS:Address1>282 Grove ST</MITS:Address1>
+          <MITS:Address2 />
+          <MITS:City>Teaneck</MITS:City>
+          <MITS:State>NJ</MITS:State>
+          <MITS:PostalCode>07666</MITS:PostalCode>
+          <MITS:UnparsedAddress>282 Grove ST</MITS:UnparsedAddress>
+          <MITS:Email />
+        </MITS:Address>
+      </MITS:Customer>
+    </Customers>
+  </Applicant>
+</ApplicantScreening>
